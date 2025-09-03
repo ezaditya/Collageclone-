@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collage website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo_ggits.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!---------- course ----------->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        “We offer a wide range of undergraduate and postgraduate programs
+        designed to build knowledge, skills, and career readiness for the
+        future.”
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>B.Tech (Computer Science & Engineering)</h3>
+          <p>
+            Our B.Tech program equips students with strong technical knowledge,
+            hands-on experience, and problem-solving skills to excel in
+            engineering, software, and emerging technologies
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>B.Com (Bachelor of Commerce)</h3>
+          <p>
+            Our B.Com program develops financial, accounting, and business
+            management skills to prepare students for careers in commerce,
+            banking, and corporate sectors.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>BA (Bachelor of Arts)</h3>
+          <p>
+            The BA program encourages creativity, communication, and critical
+            thinking, offering students wide career opportunities in media,
+            education, public service, and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+      <h1>Our Facilities</h1>
+      <p>
+        “Our institution provides a well-rounded setting with modern amenities
+        that enhance both academic and personal development.”
+      </p>
+      <div class="row">
+        <div class="facility-col">
+          <img src="library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            “With modern facilities and a wide range of learning materials, the
+            library supports students and faculty in academic excellence and
+            research.”
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            “Our playground provides ample space and facilities for sports,
+            fitness, and recreational activities, encouraging students to stay
+            active, healthy, and team-spirited.”
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            “Our cafeteria serves hygienic and nutritious food in a friendly
+            environment, ensuring students enjoy healthy meals and a refreshing
+            break during their day.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Gyan Ganga College, JBP is dedicated to nurturing bright minds through
+        quality education and practical learning. <br />
+        Our industry-aligned programs, experienced faculty, and modern campus
+        facilities create an environment where students grow academically and
+        personally. We emphasize innovation, ethical values, and strong
+        placement support to prepare graduates for successful careers and
+        responsible citizenship.
+      </p>
+       <div class="icons">
+        <a
+          href="https://www.bing.com/ck/a?!&&p=6240f8072d897cf035fef1ffa023360d6509b9f7623263dbe07182bd1a85ca76JmltdHM9MTc1Njc3MTIwMA&ptn=3&ver=2&hsh=4&fclid=03fa5050-01d7-689a-2607-4366004c69e5&psq=gyan+ganga+jabalpur+social+media&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2d5YW5nYW5nYWl0cy8"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/gyanganga_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/gyanganga_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/aditya-soni-440a95366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><i class="fa fa-linkedin"></i 
+        ></a>
+      </div>
+      <p>
+        made with <i class="fa fa-heart-o"></i>
+        <a
+          href="https://www.linkedin.com/in/aditya-soni-440a95366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >by Aadi &#128526</a
+        >
+      </p>
+    </section>
+   
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
